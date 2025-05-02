@@ -1,26 +1,20 @@
-[tool.poetry]
-name = "bootcamp-de"
+[project]
+name = "python-bootcamp-de"
 version = "0.1.0"
-description = ""
-authors = ["lealre <renaanvp@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "3.11.5"
-pandas = "^2.2.1"
-pandera = "^0.18.0"
-fastparquet = "^2024.2.0"
-loguru = "^0.7.2"
-scheduler = "^0.8.5"
-schedule = "^1.2.1"
-sqlmodel = "^0.0.16"
-sqlalchemy = "^2.0.28"
-psycopg2-binary = "^2.9.9"
-requests = "^2.31.0"
-fastapi = "^0.110.0"
-uvicorn = "^0.29.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2.1",
+    "pandera>=0.18.0",
+    "fastparquet>=2024.2.0",
+    "loguru>=0.7.2",
+    "scheduler>=0.8.5",
+    "schedule>=1.2.1",
+    "sqlmodel>=0.0.16",
+    "sqlalchemy>=2.0.28",
+    "psycopg2-binary>=2.9.9",
+    "requests>=2.31.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0"
+]
